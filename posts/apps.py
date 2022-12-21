@@ -3,4 +3,4 @@ from django.apps import AppConfig
 
 class TasktableConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'taskTable'
+    name = 'posts'

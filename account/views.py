@@ -4,7 +4,7 @@ from ninja import Router
 
 from account.authorization import GlobalAuth, get_tokens_for_user
 from account.schemas import AccountCreate, AuthOut, SigninSchema, AccountOut, AccountUpdate, ChangePasswordSchema
-from taskTable.schemas import MessageOut
+from posts.schemas import MessageOut
 
 User = get_user_model()
 

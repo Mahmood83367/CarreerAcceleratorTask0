@@ -8,9 +8,9 @@ class MessageOut(Schema):
 class UUIDSchema(Schema):
     id: UUID4
     
-class tableSchema(Schema):
+class postsSchema(Schema):
     title: str
     text: str
     
-class table_out(UUIDSchema,tableSchema):
+class posts_out(UUIDSchema,postsSchema):
     pass
