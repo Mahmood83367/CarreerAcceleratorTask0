@@ -6,7 +6,7 @@ from posts.models import PostsModel
 from account.authorization import GlobalAuth
 
 
-posts_controller = Router()
+posts_controller = Router(tags=['Posts'])
 
 @posts_controller.get('posts', auth=GlobalAuth() , response={
     200: List[posts_out],
